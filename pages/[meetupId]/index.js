@@ -4,7 +4,6 @@ import Head from "next/head";
 import MeetupDetail from "../../components/meetups/MeetupDetail";
 
 const MeetupDetails = (props) => {
-  console.log(props.meetupData.image);
   return (
     <Fragment>
       <Head>
